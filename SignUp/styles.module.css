@@ -1,0 +1,145 @@
+/* .signup {
+	max-width: 864px;
+	width: 95%;
+	background: #ffffff;
+	padding: 80px 110px;
+	margin: 53px auto;
+} */
+
+.formexternal {
+	background-color: #492b7c;
+	padding-block: 50px;
+	
+	
+}.formmargin1, .formmargin2, .formmargin3, .formmargin4{
+	margin-block: 99px;
+	padding-block: 50px;
+}
+
+.signup {
+	max-width: 864px;
+	width: 95%;
+	background: #ffffff;
+	padding-inline: 70px;
+	margin-inline: auto;
+	/* margin-bottom: 100px; */
+	margin-block: auto;
+	border-radius: 24px;
+	position: relative;
+}
+
+.topleft {
+position: absolute;
+top: 15px;
+}
+
+.midleft {
+position: absolute;
+top: 270px;
+left: 30px;
+}
+.topblock {
+position: absolute;
+top: 15px;
+right: 300px;
+}
+.topslant {
+position: absolute;
+top: 100px;
+right: 10px;
+
+}
+.formmargin5, .formmargin6 {
+	background-color: #492b7c;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding-block: 20%;
+	padding-inline: 40%;
+}
+
+
+.header {
+	margin-bottom: 56px;
+	
+}
+.header img {
+padding-inline: 30%;
+margin-bottom: 25px;
+}
+.header h3 {
+	padding-inline: 25%;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.header h3 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #492b7c;
+}
+
+.btn {
+	margin-top: 64px;
+}
+
+.bottomText {
+	text-align: center;
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.bottomText p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.link {
+	color: #492b7c;
+	text-decoration: none;
+}
+
+.link:active,
+.link:visited {
+	color: #492b7c;
+}
+
+.verification {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.verificationBtn {
+	outline: none;
+	border: none;
+	background: #492b7c;
+	color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.signup {
+		padding: 40px 55px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.signup {
+		padding: 20px 27.5px;
+		width: 100%;
+	}
+}
